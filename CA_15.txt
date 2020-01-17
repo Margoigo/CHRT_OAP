@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+
+namespace ConsoleApplication15
+{
+    
+    class Program
+    {
+        static void Print(string S)
+        {
+            Console.WriteLine(S);
+        }
+        static void Repead(string S, int K =10)
+        {
+            for(int i = 0; i<K; i++)
+            Console.WriteLine(S);
+        }
+        static int sum(int K = 10, int N = 100)
+        {
+            int g = 0;
+            for (int i = K; i < N; i++)
+                if (i % 2 == 0) g++;
+            return g;
+        }
+        static string Word(int K = 10)
+        {
+            return ("я учусь программировать " + K + " год!");
+        }
+        static void Main(string[] args)
+        {
+
+
+
+            Console.Read();
+        }
+    }
+}
